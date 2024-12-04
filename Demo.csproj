@@ -9,6 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include=".github\workflows\docker.yml" />
+    <Content Include=".github\workflows\dotnet.yml" />
     <Content Include="Fibo.sln" />
     <Content Include="src\demo\Demo.csproj" />
     <Content Include="src\Fibo.Web\Fibo.Web.csproj" />
